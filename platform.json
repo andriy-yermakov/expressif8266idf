@@ -21,5 +21,9 @@
   "frameworks": {
   },
   "packages": {
+    "toolchain-xtensa-lx106-elf": {
+      "type": "toolchain",
+      "version": "https://github.com/andriy-yermakov/xtensa-lx106-elf.git"
+    },
   }
 }
