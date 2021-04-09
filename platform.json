@@ -19,11 +19,19 @@
   },
   "version": "1.0.0",
   "frameworks": {
+    "esp8266-rtos-idf": {
+      "package": "framework-esp8266-rtos-idf",
+      "script": "builder/frameworks/esp8266-rtos-idf.py"
+    }
   },
   "packages": {
     "toolchain-xtensa-lx106-elf": {
       "type": "toolchain",
       "version": "https://github.com/andriy-yermakov/xtensa-lx106-elf.git"
+    },
+    "framework-esp8266-rtos-idf": {
+      "type": "framework",
+      "version": "https://github.com/andriy-yermakov/ESP8266_RTOS_SDK.git"
     }
   }
 }
