@@ -1,0 +1,25 @@
+{
+  "name": "espressif8266idf",
+  "title": "Espressif 8266 IDF",
+  "description": "Espressif Systems is a privately held fabless semiconductor company. They provide wireless communications and Wi-Fi chips which are widely used in mobile devices and the Internet of Things applications.",
+  "homepage": "https://espressif.com/",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dev-platform",
+    "Wi-Fi",
+    "Xtensa",
+    "106Micro"
+  ],
+  "engines": {
+    "platformio": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andriy-yermakov/expressif8266idf.git"
+  },
+  "version": "1.0.0",
+  "frameworks": {
+  },
+  "packages": {
+  }
+}
