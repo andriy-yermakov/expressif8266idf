@@ -32,6 +32,43 @@
     "framework-esp8266-rtos-idf": {
       "type": "framework",
       "version": "https://github.com/andriy-yermakov/ESP8266_RTOS_SDK.git"
+    },
+    "tool-esptool": {
+      "type": "uploader",
+      "owner": "platformio",
+      "version": "<2"
+    },
+    "tool-esptoolpy": {
+      "type": "uploader",
+      "owner": "platformio",
+      "version": "~1.30000.0"
+    },
+    "tool-mkspiffs": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.200.0"
+    },
+    "tool-mklittlefs": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.203.0"
+    },
+    "tool-cmake": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "~3.16.0"
+    },
+    "tool-ninja": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "^1.7.0"
+    },
+    "tool-mconf": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.4060000.0"
     }
   }
 }
