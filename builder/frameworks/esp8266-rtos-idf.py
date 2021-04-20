@@ -1134,7 +1134,7 @@ partition_table = env.Command(
     os.path.join("$BUILD_DIR", "partitions.bin"),
     "$PARTITIONS_TABLE_CSV",
     env.VerboseAction(
-        '"$PYTHONEXE" "%s" -q --flash-size "%s" $SOURCE $TARGET'
+        '"$PYTHONEXE" "%s" -q --disable-md5sum --flash-size "%s" $SOURCE $TARGET'
         % (
             os.path.join(
                 FRAMEWORK_DIR, "components", "partition_table", "gen_esp32part.py"
