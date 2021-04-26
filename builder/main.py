@@ -177,6 +177,8 @@ env.Replace(
     ],
     ERASECMD='"$PYTHONEXE" "$OBJCOPY" $ERASEFLAGS erase_flash',
 
+#    MKSPIFFSTOOL="mkspiffs_${PIOPLATFORM}_" + ("espidf" if "espidf" in env.subst(
+#        "$PIOFRAMEWORK") else "${PIOFRAMEWORK}"),
     MKSPIFFSTOOL=join(platform.get_package_dir("tool-mkspiffs"), "mkspiffs"),
     ESP8266_SPIFFS_IMAGE_NAME=env.get("ESP8266_SPIFFS_IMAGE_NAME", "spiffs"),
 
